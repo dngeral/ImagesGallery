@@ -1,0 +1,21 @@
+
+/* ImageCard */
+.image-card{
+  width: 200px;
+}
+
+.image-card img{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.image-card p{
+  text-align: center;
+}
+
+/* Gallery */
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
